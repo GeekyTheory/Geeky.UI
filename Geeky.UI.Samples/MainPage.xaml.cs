@@ -26,5 +26,10 @@ namespace Geeky.UI.Samples
         {
             this.InitializeComponent();
         }
+
+        private async void ShowDialog_Click(object sender, RoutedEventArgs e)
+        {
+            var result = await Dialog.ShowAsync();
+        }
     }
 }
