@@ -134,7 +134,7 @@
                                         <ColumnDefinition />
                                     </Grid.ColumnDefinitions>
                                     <Border Grid.Column="1" VerticalAlignment="Center">
-                                        <Grid Margin="13,19,13,25" HorizontalAlignment="Center"
+                                        <Grid Margin="13,19,13,25" HorizontalAlignment="Left"
                                                     Width="{TemplateBinding Width}">
                                             <Grid.RowDefinitions>
                                                 <RowDefinition Height="Auto"/>

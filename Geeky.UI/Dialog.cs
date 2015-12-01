@@ -41,6 +41,8 @@ namespace Geeky.UI
             dialogGrid = (Grid) GetTemplateChild(PART_DIALOGGRID);
             contentPresenter = (ContentPresenter) GetTemplateChild(PART_CONTENT);
 
+            BackButtonVisibility = Visibility.Visible;
+
             ResizeContainers();
 
             if (backButton != null)
@@ -88,7 +90,7 @@ namespace Geeky.UI
         }
 
         public static readonly DependencyProperty BackButtonVisibilityProperty = DependencyProperty.Register(
-            "BackButtonVisibility", typeof (Visibility), typeof (Dialog), new PropertyMetadata(Visibility.Collapsed));
+            "BackButtonVisibility", typeof (Visibility), typeof (Dialog), new PropertyMetadata(Visibility.Visible));
 
         public Visibility BackButtonVisibility
         {

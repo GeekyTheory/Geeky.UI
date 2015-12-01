@@ -12,7 +12,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button Content="Show Dialog" Click="ShowDialog_Click"></Button>
-        <geekyUI:Dialog Title="Title" BackButtonVisibility="Visible" IsOpen="{Binding IsOpen, Mode=TwoWay}" Background="Coral">
+        <geekyUI:Dialog Title="Title" IsOpen="{Binding IsOpen, Mode=TwoWay}" Background="Coral">
             <Grid HorizontalAlignment="Stretch">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
