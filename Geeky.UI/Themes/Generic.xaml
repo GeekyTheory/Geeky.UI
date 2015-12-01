@@ -129,12 +129,12 @@
                                         </Style>
                                     </Grid.Resources>
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition />
-                                        <ColumnDefinition Width="4*" />
-                                        <ColumnDefinition />
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
                                     <Border Grid.Column="1" VerticalAlignment="Center">
-                                        <Grid Margin="13,19,13,25" HorizontalAlignment="Left"
+                                        <Grid Margin="13,19,13,25" HorizontalAlignment="Center"
                                                     Width="{TemplateBinding Width}">
                                             <Grid.RowDefinitions>
                                                 <RowDefinition Height="Auto"/>

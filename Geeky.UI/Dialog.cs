@@ -61,7 +61,7 @@ namespace Geeky.UI
                 rootGrid.Width = Window.Current.Bounds.Width;
                 rootGrid.Height = Window.Current.Bounds.Height;
                 dialogGrid.Margin = new Thickness(0,80,0,80);
-                //contentPresenter.Width = Window.Current.Bounds.Width;
+                contentPresenter.Width = Window.Current.Bounds.Width - 160;
             }
 
             if (rootBorder != null)
