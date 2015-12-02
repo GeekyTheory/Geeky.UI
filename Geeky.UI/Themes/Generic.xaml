@@ -144,7 +144,7 @@
                                                 Foreground="{Binding RelativeSource={RelativeSource Mode=TemplatedParent}, Path=Background, Converter={StaticResource ColorContrast}}"
                                                 x:Name="PART_Title" Text="{TemplateBinding Title}"
                                                 FontFamily="Segoe UI" FontSize="26.6667" FontWeight="Light"
-                                                Margin="0,0,0,8" />
+                                                Margin="0,0,0,8"/>
                                             <ContentPresenter Grid.Row="1" Margin="0" x:Name="PART_Content"
                                                               Foreground="{Binding RelativeSource={RelativeSource Mode=TemplatedParent}, Path=Background, Converter={StaticResource ColorContrast}}" />
                                         </Grid>
