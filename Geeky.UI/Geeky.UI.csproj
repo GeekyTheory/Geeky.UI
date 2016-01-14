@@ -109,6 +109,7 @@
   <ItemGroup>
     <Compile Include="Converters\ColorContrastConverter.cs" />
     <Compile Include="Dialog.cs" />
+    <Compile Include="PaneView.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="Properties\Geeky.UI.rd.xml" />
