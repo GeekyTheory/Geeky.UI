@@ -20,7 +20,7 @@ namespace Geeky.UI
     [TemplatePart(Name = FadeInPropertyName, Type = typeof(Storyboard))]
     [TemplatePart(Name = FadeOutPropertyName, Type = typeof(Storyboard))]
     [TemplatePart(Name = ControlMainFrameThemeTransitionName, Type = typeof(EdgeUIThemeTransition))]
-    public sealed class PaneView : Control
+    public sealed class PaneView : ContentControl
     {
         private const string ControlMainFrameName = "ControlMainFrame";
         private const string SidebarGridName = "SidebarGrid";
@@ -315,7 +315,7 @@ namespace Geeky.UI
         private void EnabledTextBox()
         {
             List<TextBox> textBoxs = new List<TextBox>();
-            VisualTreeHelper.FindChildren(textBoxs, sidebarGrid);
+            Helpers.VisualTreeHelper.FindChildren(textBoxs, sidebarGrid);
             foreach (TextBox textBox in textBoxs)
             {
                 textBox.IsEnabled = true;

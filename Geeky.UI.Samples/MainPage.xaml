@@ -10,7 +10,7 @@
     DataContext="{Binding RelativeSource={RelativeSource Self}}"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <geekyUI:PaneView>
         <Button Content="Show Dialog" Click="ShowDialog_Click"></Button>
         <geekyUI:Dialog Title="Title" IsOpen="{Binding IsOpen, Mode=TwoWay}" Background="Coral"
                         >
@@ -61,5 +61,5 @@
                 </Grid>
             </Grid>
         </geekyUI:Dialog>
-    </Grid>
+    </geekyUI:PaneView>
 </Page>
